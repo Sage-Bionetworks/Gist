@@ -13,7 +13,7 @@
         <log4j.version>2.7</log4j.version>
         <commons-logging.version>1.2</commons-logging.version>
         <synapseclient.version>357.0</synapseclient.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <mockito.version>1.10.19</mockito.version>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
