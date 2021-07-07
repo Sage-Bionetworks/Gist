@@ -65,7 +65,7 @@ mkdir -p ../RLIB
 
 R -e ".libPaths(c('../RLIB', .libPaths()));\
 install.packages(c('fs', 'pack', 'R6', 'testthat', 'knitr', 'rmarkdown', 'PythonEmbedInR', 'pkgdown'),\
- repos=c('http://cran.fhcrc.org', '${RAN}'))"
+ repos=c('https://cloud.r-project.org', '${RAN}'))"
 
 # need to build the package to be able to build docs
 ## build the package, including the vignettes
